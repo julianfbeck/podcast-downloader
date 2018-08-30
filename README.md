@@ -15,8 +15,9 @@ $ npm install podcast-downloader
 const podcast = require('podcast-downloader');
 
 (async () => {
-    let podcast = await podcast("<Podcast RSS url...>", "Desktop/");
-
+    let episodes = await podcast("<Podcast RSS url...>", "Desktop/");
+    //download all episodes
+    
     await podcast("https://collegeinfogeek.com/podcast", "Desktop/",10);
     // downloads the first 10 episodes from college info geek
 
@@ -26,12 +27,12 @@ const podcast = require('podcast-downloader');
 
 ## API
 
-### podcast(url, output)
+### podcast(url, output);
 
 Downloads all episodes from the RSS feed, saves them inside the output folder
 Returns a `Promise` that holds an Array with all downloaded episodes and additional information.
 
-### podcast(url, output, limit)
+### podcast(url, output, limit);
 
 Downloads episodes from the RSS feed until the limit is reached, saves them inside the output folder
 Returns a `Promise` that holds an Array with all downloaded episodes and additional information.

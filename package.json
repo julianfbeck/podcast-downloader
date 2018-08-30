@@ -1,0 +1,36 @@
+{
+  "name": "podcast-downloader",
+  "version": "1.0.1",
+  "description": "download Podcast episodes from a RSS feed",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Julian Beck",
+  "license": "MIT",
+  "dependencies": {
+    "node-podcast-parser": "^2.3.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "rimraf": "^2.6.2"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "podcast downloader",
+    "download",
+    "podcast",
+    "url",
+    "RSS feed",
+    "podcast-downloader"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jufabeck2202/podcast-downloader"
+  },
+  "homepage": "https://github.com/jufabeck2202/podcast-downloader"
+}

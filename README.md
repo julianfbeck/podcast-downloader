@@ -1,6 +1,6 @@
-# ytplaylist-dl [![Build Status](https://travis-ci.org/jufabeck2202/podcast-downloader.svg?branch=master)](https://travis-ci.org/jufabeck2202/podcast-downloader)
+# podcast-downloader [![Build Status](https://travis-ci.org/jufabeck2202/podcast-downloader.svg?branch=master)](https://travis-ci.org/jufabeck2202/podcast-downloader)
 
-> download Podcasts from a RSS feed
+> node module to download Podcasts from a RSS feed
 
 
 ## Install
